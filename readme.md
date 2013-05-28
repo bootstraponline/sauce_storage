@@ -5,7 +5,7 @@ See the [API docs](http://saucelabs.com/docs/rest#storage).
 Create a storage object by providing username, key, and optionally debug.
 
 ```ruby
-s = SauceStorage.new username: 'my_user_name', key: '00', debug: true
+s = SauceStorage.new username: 'my_user_name', key: '00000000-0000-0000-0000-000000000000', debug: true
 ```
 
 If `SAUCE_USERNAME` and `SAUCE_ACCESS_KEY` are defined as environment variables, username and key may be omitted.
