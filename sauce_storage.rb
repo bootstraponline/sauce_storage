@@ -48,7 +48,7 @@ class SauceStorage
       end
     end
     
-    url = "#{@url}/#{file_name}?overwrite=plz"
+    url = "#{@url}/#{file_name}?overwrite=true"
     remote_md5 = JSON.parse( RestClient.post url, file, content_type: 'application/octet-stream' )['md5']
     if @debug
       puts "Uploaded #{file_path}"
