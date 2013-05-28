@@ -8,7 +8,7 @@ Create a storage object by providing username, key, and optionally debug.
 s = SauceStorage.new username: 'my_user_name', key: '00', debug: true
 ```
 
-If SAUCE_USERNAME and SAUCE_ACCESS_KEY are defined as environment variables, username and key may be omitted.
+If `SAUCE_USERNAME` and `SAUCE_ACCESS_KEY` are defined as environment variables, username and key may be omitted.
 
 ```ruby
 s = SauceStorage.new debug: true
