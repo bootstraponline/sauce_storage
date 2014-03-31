@@ -1,3 +1,5 @@
+Storage support has been merged into the [sauce_whisk](https://github.com/saucelabs/sauce_whisk) gem.
+
 #### Sauce Storage
 
 See the [API docs](http://saucelabs.com/docs/rest#storage).
